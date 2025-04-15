@@ -13,3 +13,5 @@ sql_query = """ CREATE TABLE students (
 )"""
 
 cursor.execute(sql_query)
+conn.commit()
+conn.close()
